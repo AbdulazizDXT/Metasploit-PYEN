@@ -1,0 +1,1 @@
+C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python310-32\python.exe WEQ.pyw
